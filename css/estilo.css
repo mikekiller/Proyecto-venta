@@ -1,0 +1,205 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/*------------------- Variables ----------------------*/
+
+/*Color*/
+:root{
+--green-color : #84c207; 
+--white-color : white ;
+--black-color: #313337;
+/*tipofrafia*/
+--normal : 12px;
+/*espaciado*/
+--space : 10px;
+/*box shadow*/
+--box : 0px 0 2px 1px #e6e5e9;
+/*imagen size*/
+--img-size : 100%;
+
+}
+
+/* Variables*/
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+/* ----------------- CABECERA ------------------- */
+.header{
+   
+    color:var(--white-color);
+}
+.menu {
+    background: var(--green-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-lista{
+    display: inherit;
+}
+.menu-lista li {
+    list-style: none;
+}
+.menu-lista-item{
+    color: var(--black-color);
+    text-decoration: none;
+    padding-left: 15px;
+}
+.menu-lista-item:hover{
+    color: var(--white-color);
+}
+.main-section{
+    padding: 15%;
+    text-align: center;
+}
+
+/* --------------------- PRODUCTOS -------------------- */
+.products{
+    background-image: url('../images/curve.png');
+    /* max-height: 200px; */
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    padding: 15%;
+}
+.product{
+    padding: var(--space) ;
+    margin-top: -280px;
+}
+.product .content{
+    background: var(--white-color);
+    padding: 20px;
+    box-shadow:  0 0 1px grey;
+
+}
+.content-img{
+    text-align: center;
+}
+.content-button{
+    background: var(--green-color);
+    width: 100%;
+    padding: 15px;
+    color: var(--white-color);
+    font-size: var(--normal) ;
+    border: 0;
+    border-radius: 2px ;
+}
+.content-button:hover{
+    background: green;
+    cursor: pointer;
+}
+/* -------------------------  DESCRIPCION PRODUCTOS --------------------------- */
+.Feature{
+     display: flex; 
+    padding: 0 15%;
+    justify-content: center;
+}
+.Feature-container{
+    display: flex;
+}
+.Feature-box {
+    text-align: center;
+}
+.Feature-box img{
+    width: 150px;
+    height: 150px;
+}
+
+
+/* ------------------- COMENTARIOS----------------------------- */
+
+.coments h1{
+    text-align: center;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0 10%;
+    margin-bottom: 50px;
+}
+.container-items{
+    /* border: 1px solid red; */
+    /* width: 20%; */
+    margin: 0 1%;
+    box-shadow: var(--box);
+    
+}
+.container-items-img{
+    margin: 0;
+}
+.container-items-img img{
+    width: 100%;
+}
+.container-items h3{
+    margin: 0;
+    margin-left: 5px;
+    text-align: left;
+
+}
+.container-items p {
+    margin: 0;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+   /* ----------- Footer -------------------------  */
+.footer-container{
+    background: var(--black-color);
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 3%;
+}
+.contacto{
+    color: var(--green-color);
+}
+
+
+.SectionContainer{
+    padding: 4% 0 ;
+    border-bottom: 1px solid gray;
+}
+
+/*------------------------------------------ Venta        ----------------------------------- */
+.containermodulo{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.modulo_pago{
+    box-shadow: var(--box);
+
+}
+.modulo_pago-imagenbox{
+    text-align: center;
+}
+.modulo-pago-input{
+    padding: 8px 0;
+    margin-bottom: var(--space);
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: var(--space);
+    border-radius: 2px;
+
+}
+.modulo-pago-submit{
+    padding: 8px 0;
+    width: 100%;
+    background-color: var(--green-color);
+    color:var(--white-color);
+
+}
+.modulo_pago label{
+    
+}
+.containermodulo-img{
+    width: 150px;
+
+}

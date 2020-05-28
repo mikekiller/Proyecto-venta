@@ -1,0 +1,27 @@
+
+@media (max-width:600px) {
+    .products{
+        display: inherit;
+        height: auto;
+    }
+    .product {
+        margin-top: auto;
+    }
+    .main_section{
+        padding: 4%;
+    }
+    .Feature{
+        display: inherit;
+    }
+     .Feature-container , .container{
+        display: inherit;
+        text-align: center;
+    } 
+    /* ---------------- PAGINA VENTA ---------------------- */
+    .containermodulo{
+        display: inherit;
+    }
+    .modulo_pago{
+        padding: 5%;
+    }
+}
